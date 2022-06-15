@@ -1,0 +1,3 @@
+==> first of all a file named : composer.json should be created in the root.
+==> then from the menu bar: Tools->Run command should be selected.
+==> and then the code that will be written in the Ran Command is : composer dump-autoload (after writing this enter should be hited to run the command line. Thats it. Then You will be gotten a Vendor folder in your root. If Vendor folder created succesfully your autoload functionality done.
