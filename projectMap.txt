@@ -1,0 +1,48 @@
+-->extraFiles:
+        ->how to run 'composer.json' is given;
+------------------------------------------------------------------------------------------------------------------------
+-->resources:
+        ->css:
+            ->my custom style sheet 'style.css' and responsive sheet 'responsive.css' are stored here;
+        ->frameworks:
+            ->bootstrap4 is stored here;
+            ->css:
+                ->animation framework 'animate.css' is stored here;
+            ->font-awesome:
+                ->for icon 'font-awsome.min.css' is stored here;
+            ->jquery-ui:
+                ->'jquery-ui-1.12.1' is stored here; 'jquery-ui.css' and 'jquery.js' are stored here;
+            ->js:
+                ->'jquery-3.2.1' is stored here;
+        ->images:
+                ->logos: logos will be being stored here;
+                ->backgrounds: other images will be being stored here;
+        ->js:
+            ->my custom javascript file 'js.js' is stored here;
+        ->plugins:
+            ->all plugins will be being stored here;
+------------------------------------------------------------------------------------------------------------------------
+-->src:
+    ->WebNerd:
+        ->all class files are located here;
+        ->Message:
+            ->Message class 'message.php' under 'App' namespace is located here;
+        ->Model:
+            ->Database class 'database.php' under 'App' namespace is located here;
+        ->Utility:
+            ->Utility class 'Utility.php' under 'App' namespace is located here;
+------------------------------------------------------------------------------------------------------------------------
+-->vendor:
+        ->this is automatically generated when the 'composer.json' file have been ran;
+        ->'autoload.php' file should be included in the php script so that we can fetch the class;
+------------------------------------------------------------------------------------------------------------------------
+-->views:
+        ->any documents that will be being displayed to users are located here;
+------------------------------------------------------------------------------------------------------------------------
+-->composer:
+         ->this file 'composer.json' is created to enable autoloading and if any third party solution required that will be downloaded by this script;
+------------------------------------------------------------------------------------------------------------------------
+-->index.html/.php:
+        ->it's the page which is counted as home page;
+
+========================================================((the_end))==============================================================
